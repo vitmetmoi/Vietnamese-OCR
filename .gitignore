@@ -1,0 +1,8 @@
+PaddleOCR
+public
+.venv
+*.yml
+*.pdparams
+*.pdopt
+*.pdiparams
+*.states

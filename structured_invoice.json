@@ -1,0 +1,50 @@
+{
+  "patient_name": "Thị",
+  "doctor_name": null,
+  "clinic_hospital": "Phòng khám 1: Nội thnkinh- Phòng: Giảm đau",
+  "date": "03/10/2025",
+  "diagnosis": "Đau vùng cổ gáy /G55.2% M54.2 Đau thần kinh trong thoái hoá cột sống M47",
+  "medicines": [
+    {
+      "name": "Oricoxib (Arcoxia)",
+      "dosage": "90mg",
+      "quantity": "07",
+      "frequency": "1 viên/ngày",
+      "duration": null,
+      "instructions": "uống sau ăn"
+    },
+    {
+      "name": "Lansoprazole (Gastevin)",
+      "dosage": "30mg",
+      "quantity": "07",
+      "frequency": "1 viên/ngày",
+      "duration": null,
+      "instructions": "uống trước ăn sáng 30 phút"
+    },
+    {
+      "name": "Glucosamin sulphat kali clorua (Glupain)",
+      "dosage": "250mg",
+      "quantity": "120",
+      "frequency": "3 viên/ngày",
+      "duration": null,
+      "instructions": "chia 3 lần (S:2-PT C:2) uống"
+    },
+    {
+      "name": "Hydroxyapatite microcrystalline + Phospho Calci + Vitamin D3 + Vitamin K (Cal)",
+      "dosage": "120mg + 55mg + 2mcg + 8mcg",
+      "quantity": "60",
+      "frequency": "2 viên/ngày",
+      "duration": null,
+      "instructions": "uống sau 1 giờ trước ăn sáng"
+    },
+    {
+      "name": "Vitamin B1 + B6 + B12 (3B extra)",
+      "dosage": "100mg + 100mg + 150mcg",
+      "quantity": null,
+      "frequency": "2 viên/ngày",
+      "duration": null,
+      "instructions": "chia 2 lần (S:1-C:1) uống"
+    }
+  ],
+  "notes": "Cộng khoản: 5 thybt thường khi hết thuốc, Lưu ý: PONKhám Nại Tkhi và Người Kiểm tra lại thuốc trước khi rời khỏi quy bệnh"
+}
