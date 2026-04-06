@@ -4,7 +4,7 @@ A complete pipeline for **Optical Character Recognition (OCR)** on Vietnamese do
 
 ---
 
-## ✨ Features
+## Features
 
 - **Custom-trained detection model** — DB (Differentiable Binarization) algorithm with MobileNetV3 backbone, fine-tuned on Vietnamese document layouts
 - **Custom-trained recognition model** — SVTR algorithm with MobileNetV1Enhance backbone, fine-tuned with a 30,000+ entry Vietnamese character dictionary
@@ -14,7 +14,7 @@ A complete pipeline for **Optical Character Recognition (OCR)** on Vietnamese do
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Vietnamese OCR/
@@ -49,7 +49,7 @@ Vietnamese OCR/
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### Detection Model
 | Component | Detail |
@@ -72,7 +72,7 @@ Vietnamese OCR/
 
 ---
 
-## 🔧 Training
+## Training
 
 Training is performed on **Kaggle** using GPU instances via the provided Jupyter notebooks.
 
@@ -126,7 +126,7 @@ Training is performed on **Kaggle** using GPU instances via the provided Jupyter
 
 ---
 
-## 🚀 Inference
+## Inference
 
 ### Quick Start (Optimized CLI)
 
@@ -162,7 +162,7 @@ for r in results:
     print(r['bounding_box'])   # top_left, top_right, bottom_right, bottom_left
 ```
 
-### 📊 Inference Result
+### Inference Result
 
 #### Visual Detection Sample
 Below is a sample detection result (`det_res_test.jpg`) showing the model's ability to locate Vietnamese text in a document:
@@ -225,7 +225,7 @@ Structured extraction example (`structured_invoice.json`):
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | Version | Purpose |
 |---------|---------|---------|
@@ -252,16 +252,16 @@ git clone https://github.com/PaddlePaddle/PaddleOCR.git
 
 ---
 
-## 📊 Use Cases
+## Use Cases
 
-- 🏥 **Medical prescriptions** — Extract patient info, diagnosis, medicine names, dosages
-- 🧾 **Invoices & receipts** — Parse Vietnamese business documents
-- 🏛️ **Government documents** — Read official Vietnamese forms
-- 📋 **General Vietnamese text** — Any printed Vietnamese document with diacritics
+- **Medical prescriptions** — Extract patient info, diagnosis, medicine names, dosages
+- **Invoices & receipts** — Parse Vietnamese business documents
+- **Government documents** — Read official Vietnamese forms
+- **General Vietnamese text** — Any printed Vietnamese document with diacritics
 
 ---
 
-## 📝 Notes
+## Notes
 
 - The **PaddleOCR** repository is git-cloned at runtime and excluded via `.gitignore`
 - Sample test images in `public/` are also excluded from version control
@@ -271,6 +271,6 @@ git clone https://github.com/PaddlePaddle/PaddleOCR.git
 
 ---
 
-## 📄 License
+## License
 
 This project uses [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) which is licensed under the [Apache License 2.0](https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE).
