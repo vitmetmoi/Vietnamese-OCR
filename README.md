@@ -72,7 +72,16 @@ Vietnamese OCR/
 
 ---
 
+## Datasets
+
+This project leverages high-quality datasets for Vietnamese OCR, including:
+
+- **[VinText (CVPR 2021)](https://github.com/VinAIResearch/dict-guided)** — A benchmark dataset for Vietnamese scene text recognition provided by VinAI Research. It contains 2,000 images with dense Vietnamese text across various real-world scenarios.
+
+---
+
 ## Training
+
 
 Training is performed on **Kaggle** using GPU instances via the provided Jupyter notebooks.
 
